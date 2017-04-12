@@ -1,0 +1,1 @@
+<?php require_once("/Users/jameswjohnson/Documents/takeroot.design/wp-content/plugins/mindshare-api-master/lib/minify-config.php"); ?>
