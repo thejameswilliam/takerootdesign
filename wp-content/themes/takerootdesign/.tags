@@ -1,0 +1,140 @@
+content_width	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^    $content_width = 900;$/;"	variable	line:22
+html5blank_nav	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^function html5blank_nav()$/;"	function	line:69
+html5blank_header_scripts	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^function html5blank_header_scripts()$/;"	function	line:94
+html5blank_styles	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^function html5blank_styles()$/;"	function	line:109
+register_html5_menu	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^function register_html5_menu()$/;"	function	line:119
+my_wp_nav_menu_args	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^function my_wp_nav_menu_args($args = '')$/;"	function	line:128
+my_css_attributes_filter	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^function my_css_attributes_filter($var)$/;"	function	line:135
+remove_category_rel_from_category_list	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^function remove_category_rel_from_category_list($thelist)$/;"	function	line:141
+add_slug_to_body_class	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^function add_slug_to_body_class($classes)$/;"	function	line:147
+key	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^        $key = array_search('blog', $classes);$/;"	variable	line:151
+remove_width_attribute	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^function remove_width_attribute( $html ) {$/;"	function	line:165
+html	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^   $html = preg_replace( '\/(width|height)="\\d*"\\s\/', "", $html );$/;"	variable	line:166
+my_remove_recent_comments_style	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^function my_remove_recent_comments_style()$/;"	function	line:187
+html5wp_pagination	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^function html5wp_pagination()$/;"	function	line:200
+big	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^    $big = 999999999;$/;"	variable	line:203
+html5wp_index	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^function html5wp_index($length) \/\/ Create 20 Word Callback for Index page Excerpts, call using html5wp_excerpt('html5wp_index');$/;"	function	line:213
+html5wp_custom_post	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^function html5wp_custom_post($length)$/;"	function	line:219
+html5wp_excerpt	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^function html5wp_excerpt($length_callback = '', $more_callback = '')$/;"	function	line:225
+more_callback	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^function html5wp_excerpt($length_callback = '', $more_callback = '')$/;"	variable	line:225
+output	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^    $output = get_the_excerpt();$/;"	variable	line:234
+output	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^    $output = apply_filters('wptexturize', $output);$/;"	variable	line:235
+output	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^    $output = apply_filters('convert_chars', $output);$/;"	variable	line:236
+output	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^    $output = '<p>' . $output . '<\/p>';$/;"	variable	line:237
+html5_blank_view_article	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^function html5_blank_view_article($more)$/;"	function	line:242
+remove_admin_bar	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^function remove_admin_bar()$/;"	function	line:249
+html5_style_remove	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^function html5_style_remove($tag)$/;"	function	line:255
+remove_thumbnail_dimensions	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^function remove_thumbnail_dimensions( $html )$/;"	function	line:261
+html	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^    $html = preg_replace('\/(width|height)=\\"\\d*\\"\\s\/', "", $html);$/;"	variable	line:263
+html5blankgravatar	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^function html5blankgravatar ($avatar_defaults)$/;"	function	line:268
+myavatar	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^    $myavatar = get_template_directory_uri() . '\/img\/gravatar.jpg';$/;"	variable	line:270
+enable_threaded_comments	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^function enable_threaded_comments()$/;"	function	line:276
+html5blankcomments	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^function html5blankcomments($comment, $args, $depth)$/;"	function	line:286
+tag	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^        $tag = 'div';$/;"	variable	line:292
+add_below	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^        $add_below = 'comment';$/;"	variable	line:293
+tag	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^        $tag = 'li';$/;"	variable	line:295
+add_below	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^        $add_below = 'div-comment';$/;"	variable	line:296
+create_post_type_html5	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^function create_post_type_html5()$/;"	function	line:385
+disable_wp_emojicons	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/functions.php	/^function disable_wp_emojicons() {$/;"	function	line:424
+args	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/inc/slider.php	/^$args = array($/;"	variable	line:3
+the_query	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/inc/slider.php	/^$the_query = new WP_Query( $args );$/;"	variable	line:7
+height	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/inc/slider.php	/^  $height = 700;$/;"	variable	line:9
+width	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/inc/slider.php	/^  $width = 700;$/;"	variable	line:10
+height	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/inc/slider.php	/^  $height = 700;$/;"	variable	line:12
+width	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/inc/slider.php	/^  $width = 1500;$/;"	variable	line:13
+height	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/inc/slider.php	/^  $height = 400;$/;"	variable	line:15
+width	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/inc/slider.php	/^  $width = 1500;$/;"	variable	line:16
+image	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/inc/slider.php	/^    $image = get_field('image');$/;"	variable	line:23
+image_url	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/inc/slider.php	/^    $image_url = mapi_thumb($image['url'],$width,$height,90);$/;"	variable	line:24
+slick-font-path	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^@slick-font-path: ".\/fonts\/";$/;"	function	line:4
+slick-font-family	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^@slick-font-family: "slick";$/;"	function	line:5
+slick-loader-path	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^@slick-loader-path: ".\/img";$/;"	function	line:6
+slick-arrow-color	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^@slick-arrow-color: white;$/;"	function	line:7
+slick-dot-color	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^@slick-dot-color: black;$/;"	function	line:8
+slick-dot-color-active	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^@slick-dot-color-active: @slick-dot-color;$/;"	function	line:9
+slick-prev-character	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^@slick-prev-character: "←";$/;"	function	line:10
+slick-next-character	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^@slick-next-character: "→";$/;"	function	line:11
+slick-dot-character	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^@slick-dot-character: "•";$/;"	function	line:12
+slick-dot-size	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^@slick-dot-size: 6px;$/;"	function	line:13
+slick-opacity-default	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^@slick-opacity-default: 0.75;$/;"	function	line:14
+slick-opacity-on-hover	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^@slick-opacity-on-hover: 1;$/;"	function	line:15
+slick-opacity-not-active	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^@slick-opacity-not-active: 0.25;$/;"	function	line:16
+.slick-loading .slick-list	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^.slick-loading .slick-list{$/;"	function	line:19
+background: #fff url('@	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^    background: #fff url('@{slick-loader-path}\/ajax-loader.gif') center center no-repeat;$/;"	function	line:20
+@font-face	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^@font-face{$/;"	function	line:24
+src: url('@	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^    src: url('@{slick-font-path}slick.eot');$/;"	function	line:29
+src: url('@{slick-font-path}slick.eot?#iefix') format('embedded-opentype'), url('@{slick-font-path}slick.woff') format('woff'), url('@{slick-font-path}slick.ttf') format('truetype'), url('@	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^    src: url('@{slick-font-path}slick.eot?#iefix') format('embedded-opentype'), url('@{slick-font-path}slick.woff') format('woff'), url('@{slick-font-path}slick.ttf') format('truetype'), url('@{slick-font-path}slick.svg#slick') format('svg');$/;"	function	line:30
+.slick-track	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^.slick-track {$/;"	function	line:32
+.slick-prev	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^.slick-prev,$/;"	function	line:37
+.slick-next	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^.slick-next {$/;"	function	line:38
+&:hover, &:focus	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^    &:hover, &:focus {$/;"	function	line:55
+&:before	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^        &:before {$/;"	function	line:59
+&.slick-disabled:before	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^    &.slick-disabled:before {$/;"	function	line:63
+.slick-prev:before, .slick-next:before	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^.slick-prev:before, .slick-next:before {$/;"	function	line:68
+.slick-prev	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^.slick-prev {$/;"	function	line:78
+&[dir="rtl"]	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^    &[dir="rtl"] {$/;"	function	line:80
+&:before	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^    &:before {$/;"	function	line:84
+&[dir="rtl"]	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^        &[dir="rtl"] {$/;"	function	line:86
+.slick-next	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^.slick-next {$/;"	function	line:92
+&[dir="rtl"]	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^    &[dir="rtl"] {$/;"	function	line:94
+&:before	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^    &:before {$/;"	function	line:98
+&[dir="rtl"]	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^        &[dir="rtl"] {$/;"	function	line:100
+.slick-dotted .slick-slider	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^.slick-dotted .slick-slider {$/;"	function	line:108
+.slick-dots	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^.slick-dots {$/;"	function	line:112
+li	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^    li {$/;"	function	line:121
+button	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^        button {$/;"	function	line:129
+&:hover, &:focus	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^            &:hover, &:focus {$/;"	function	line:141
+&:before	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^                &:before {$/;"	function	line:143
+&:before	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^            &:before {$/;"	function	line:147
+&.slick-active button:before	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/slickjs/slick-theme.less	/^        &.slick-active button:before {$/;"	function	line:164
+// Place all of your custom styles in here. This stylesheet is loaded last	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^\/\/ Place all of your custom styles in here. This stylesheet is loaded last,$/;"	function	line:3
+body	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^body {$/;"	function	line:8
+a	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^a {$/;"	function	line:19
+img	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^img {$/;"	function	line:24
+h1	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^h1 {$/;"	function	line:28
+h2	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^h2 {$/;"	function	line:33
+h3	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^h3 {$/;"	function	line:36
+h4	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^h4 {$/;"	function	line:39
+h5	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^h5 {$/;"	function	line:42
+.transition	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^.transition {$/;"	function	line:45
+.home	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^.home {$/;"	function	line:53
+header.header-home	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^header.header-home {$/;"	function	line:56
+.site-title	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^	.site-title {$/;"	function	line:64
+a	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^	a {$/;"	function	line:68
+hr	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^	hr {$/;"	function	line:71
+h1	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^	h1 {$/;"	function	line:78
+h3	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^	h3 {$/;"	function	line:86
+header.header-page	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^header.header-page {$/;"	function	line:93
+.site-title	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^	.site-title {$/;"	function	line:101
+a	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^	a {$/;"	function	line:105
+hr	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^	hr {$/;"	function	line:108
+h1	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^	h1 {$/;"	function	line:115
+h3	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^	h3 {$/;"	function	line:123
+.home-prod-category	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^.home-prod-category {$/;"	function	line:133
+img	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^	img {$/;"	function	line:135
+.cat-title	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^	.cat-title {$/;"	function	line:138
+.cat-title:hover	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^	.cat-title:hover {$/;"	function	line:150
+nav.nav	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^nav.nav {$/;"	function	line:156
+.menu	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^	.menu {$/;"	function	line:164
+ul	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^		ul {$/;"	function	line:167
+li	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^			li{$/;"	function	line:171
+a	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^				a {$/;"	function	line:175
+a:hover	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^				a:hover {$/;"	function	line:182
+.fancy	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^.fancy {$/;"	function	line:192
+.fancy span	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^.fancy span {$/;"	function	line:196
+.fancy span:before	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^.fancy span:before,$/;"	function	line:200
+.fancy span:after	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^.fancy span:after {$/;"	function	line:201
+.fancy span:before	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^.fancy span:before {$/;"	function	line:210
+.fancy span:after	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^.fancy span:after {$/;"	function	line:214
+.page-container	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^.page-container {$/;"	function	line:220
+.bypostauthor > article .fn:before	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^.bypostauthor > article .fn:before {$/;"	function	line:224
+.alignleft, img.alignleft	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^.alignleft, img.alignleft {$/;"	function	line:234
+.alignright, img.alignright	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^.alignright, img.alignright {$/;"	function	line:239
+.aligncenter, img.aligncenter	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^.aligncenter, img.aligncenter {$/;"	function	line:244
+.alignnone, img.alignnone	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^.alignnone, img.alignnone {$/;"	function	line:249
+.square-header	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^.square-header {$/;"	function	line:257
+.squares	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^  .squares {$/;"	function	line:263
+.square	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^    .square {$/;"	function	line:269
+.square.color	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^    .square.color {$/;"	function	line:279
+.square.yellow	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^    .square.yellow {$/;"	function	line:282
+.pagination.pagination-centered	/Users/jameswjohnson/Documents/takeroot.design/wp-content/themes/takerootdesign/less/custom-styles.less	/^.pagination.pagination-centered {$/;"	function	line:294

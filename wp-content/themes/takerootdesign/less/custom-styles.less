@@ -1,0 +1,350 @@
+//
+// LAYOUTS
+// Place all of your custom styles in here. This stylesheet is loaded last,
+// and takes precedence over all others.
+//
+// --------------------------------------------------
+
+body {
+	-moz-osx-font-smoothing: grayscale; // enable font-smoothing for browsers that support it
+	-webkit-font-smoothing:  antialiased;
+	text-shadow:             1px 1px 1px rgba(0, 0, 0, 0.004);
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	color: @brand-dark-text;
+	background: #fff;
+	line-height: 1.4em;
+}
+main {
+	
+}
+a {
+	color: @brand-dark-text;
+	text-decoration: underline;
+	font-weight: normal;
+}
+img {
+	max-width: 100%;
+}
+
+h1 {
+	font-size: 4em;
+	font-family: 'Rochester', cursive;
+	text-align: center;
+	line-height: 1em;
+}
+h2 {
+	font-size: 2em;
+  line-height: 1em;
+}
+h3 {
+	font-size: 1.6em;
+  line-height: 1em;
+}
+h4 {
+	font-size: 1.2em;
+  line-height: 1em;
+}
+h5 {
+	font-size: 1em;
+  line-height: 1em;
+}
+.transition {
+	-webkit-transition: all 100ms ease-out;
+	-moz-transition: all 100ms ease-out;
+	-ms-transition: all 100ms ease-out;
+	-o-transition: all 100ms ease-out;
+	transition: all 100ms ease-out;
+}
+//Front page styles
+.home {
+
+}
+.takeroot-tagline {
+  margin: 30px;
+  padding: 20px;
+  h2 {
+    text-align: center;
+  }
+}
+
+header.header-home {
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 10;
+	top: 140px;
+    background-color: rgba(255,255,255,0.2);
+	padding: 30px;
+	.site-title {
+    width: 70%;
+    margin: 0 auto;
+	}
+	a {
+		color: @brand-light-text;
+	}
+	hr {
+		width: 25%;
+		margin: 0 auto;
+		display: block;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	h1 {
+		font-family: 'Rochester', cursive;
+		font-size: 4.2em;
+		text-align: center;
+		color: @brand-light-text;
+		text-shadow: 0 0 5px #4D3A2C;
+		line-height: 1em;
+	}
+	h3 {
+		text-align: center;
+		font-size: 1.1em;
+		color: @brand-light-text;
+		margin: 30px;
+	}
+}
+header.header-page {
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 10;
+	top: 40px;
+	background-color: rgba(1,1,1,0.6);
+	padding: 30px;
+	.site-title {
+    width: 70%;
+    margin: 0 auto;
+	}
+	a {
+		color: @brand-light-text;
+	}
+	hr {
+		width: 25%;
+		margin: 0 auto;
+		display: block;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	h1 {
+		font-family: 'Rochester', cursive;
+		font-size: 4.2em;
+		text-align: center;
+		color: #FADFA4;
+		text-shadow: 0 0 5px #4D3A2C;
+		line-height: 1em;
+	}
+	h3 {
+		text-align: center;
+		font-size: 1.1em;
+		color: @brand-light-text;
+		margin: 20px;
+		line-height: 1em;
+	}
+}
+
+.takeroot-categories {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.takeroot-features {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.home-prod-category {
+	img {
+		width: 100%;
+	}
+	.cat-title {
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom:0;
+      left: 0;
+      text-align: center;
+      padding: 20%;
+      text-shadow: 0 0 5px #0A0A0A;
+      font-size: 2em;
+	  color: @brand-light-text;
+      .transition
+	}
+	.cat-title:hover  {
+		transform: scale(1.1);
+		.transition
+	}
+}
+//Navigation Styles
+nav.nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right:0;
+	z-index: 9999;
+	height: 40px;
+	overflow: hidden;
+    background: rgba(255,255,255,.6);
+
+	.menu {
+		position: relative;
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			li{
+				list-style: none;
+				display: inline-block;
+				a {
+					padding: 5px 10px;
+					text-decoration: none;
+					float: left;
+					color: @brand-dark-text;
+					.transition
+				}
+				a:hover {
+					background: #fff;
+					color: #000;
+					.transition
+				}
+			}
+		}
+	}
+}
+nav.nav.background-on {
+  background: rgba(255,255,255,1);
+  border-bottom: 1px solid #000;
+}
+
+.fancy {
+  line-height: 0.5;
+  text-align: center;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px dashed @brand-light-text;
+  border-top: 1px dashed @brand-light-text;
+  top: 0;
+  width: 600px;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+// Page header
+.page-container {
+	margin-top: 30px;
+}
+
+.bypostauthor > article .fn:before {
+	content:  "\f408";
+	margin:   0 2px 0 -2px;
+	position: relative;
+	top:      -1px;
+}
+
+
+/* end single post */
+
+.alignleft, img.alignleft {
+	float:  left;
+
+}
+
+.alignright, img.alignright {
+	float:  right;
+
+}
+
+.aligncenter, img.aligncenter {
+	float:  none;
+
+}
+
+.alignnone, img.alignnone {
+	float:  none;
+
+}
+
+/* sidebars and asides */
+
+
+.square-header {
+  width: 100%;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  .squares {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    .square {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      width: 7.69%;
+      height: 100px;
+      background: #fff;
+      float: left;
+
+    }
+    .square.color {
+      background: rgb(226,231,212);
+    }
+    .square.yellow {
+      background: rgb(255,204,26);
+    }
+  }
+}
+
+
+
+
+
+// Pagination
+
+.pagination.pagination-centered {
+	text-align: center;
+	width:      100%;
+}
+
+// Footer Styles
+
+#footer {
+	background: #2E2E2E;
+	color: #fff;
+	padding-top: 20px;
+	margin: 20px 0 0 0;
+	a {
+		color: #EBE0E0;
+	}
+	h3 {
+		font-size: 1.6em;
+		line-height: 1em;
+		margin-bottom: .6em;
+	}
+  .lower-footer {
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    font-size: .7em;
+    text-align: center;
+    a {
+      color: @brand-light-text;
+    }
+  }
+}
