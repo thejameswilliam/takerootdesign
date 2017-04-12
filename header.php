@@ -23,7 +23,26 @@
 			<!-- nav -->
 			<nav class="nav" role="navigation">
 				<?php root_nav(); ?>
+                <?php
+                $shop_page_url = get_permalink( wc_get_page_id( 'shop' ) );
+                $myaccount_page_id = get_option( 'woocommerce_myaccount_page_id' );
+                if (is_user_logged_in() && $myaccount_page_id) :
+                    $myaccount_page_url = get_permalink( $myaccount_page_id );
+                endif;
+                $cart_count = WC()->cart->get_cart_contents_count();
+                ?>
+                <div class="shop-links hidden-xs hidden-sm">
+                    <?php if (is_user_logged_in() && $myaccount_page_id) : ?>
+                        <a href="<?php echo $myaccount_page_url; ?>"><i class="fa fa-user" aria-hidden="true"></i></a>
+                    <?php endif; ?>
+                    <?php if ($cart_count > 0) : ?>
+                        <a class="cart-contents" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>">
+                            <?php echo sprintf ( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> - <?php echo WC()->cart->get_cart_total(); ?>
+                        </a>
+                    <?php endif; ?>
+                </div>
 			</nav>
+
 			<!-- /nav -->
 			<!-- header -->
 			<?php if(is_home()) : ?>

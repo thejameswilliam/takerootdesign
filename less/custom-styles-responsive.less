@@ -34,11 +34,28 @@
 	.text-right-xs {
 		text-align: right;
 	}
+  header.header-home {
+
+    top: 60px;
+    padding: 6px;
+    font-size: .7em;
+    h3 {
+      margin: 7px;
+    }
+  }
 }
 
 // Small styles - default: 480px <= x <= 991px
 @media (min-width: @screen-sm) and (max-width: @screen-sm-max) {
+  header.header-home {
 
+    top: 75px;
+    padding: 6px;
+    font-size: .8em;
+    h3 {
+      margin: 17px;
+    }
+  }
 }
 
 // Medium styles - default: 992px <= x <= 1199px
@@ -46,6 +63,14 @@
 	#main {
 		min-height: 250px;
 	}
+  header.header-home {
+    top: 140px;
+    padding: 30px;
+    font-size: 1em;
+    h3 {
+      margin: 30px;
+    }
+  }
 }
 
 // Large styles - default: 1200px <= x

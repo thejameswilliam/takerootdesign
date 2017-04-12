@@ -6,7 +6,7 @@ $args = array(
 );
 $the_query = new WP_Query( $args );
 if(mapi_is_mobile()) :
-  $height = 700;
+  $height = 500;
   $width = 700;
 elseif(is_home()) :
   $height = 700;
