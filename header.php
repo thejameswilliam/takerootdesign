@@ -41,7 +41,7 @@
 							<h1><?php the_archive_title();?></h1>
 						</div>
 				</header>
-			<?php else : ?>
+			<?php elseif(is_page()) : ?>
 				<header class="header-page clear" role="banner">
 						<div class="site-title">
 							<h3 class="fancy"><span>Custom Built</span></h3>
@@ -49,6 +49,14 @@
 							<h3 class="fancy"><span><?php the_field('sub_title'); ?></span></h3>
 						</div>
 				</header>
+            <?php else : ?>
+                <header class="header-page clear" role="banner">
+                    <div class="site-title">
+                        <h3 class="fancy"><span>Custom Built</span></h3>
+                        <h1>Take Root Design</h1>
+                        <h3 class="fancy"><span><?php the_field('sub_title'); ?></span></h3>
+                    </div>
+                </header>
 			<?php endif; ?>
 
 			<!-- /header -->
